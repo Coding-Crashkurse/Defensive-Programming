@@ -1,0 +1,10 @@
+[project]
+name = "defensive"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.124.4",
+    "httpx>=0.28.1",
+    "pydantic>=2,<3",
+    "uvicorn>=0.38.0",
+]
